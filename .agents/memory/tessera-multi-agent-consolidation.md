@@ -1,10 +1,10 @@
 ---
 name: Tessera multi-agent consolidation
-description: User-stated agreement rule for bringing parallel Tessera work into a shared repository.
+description: Owner-stated destinations, preservation scope and agreement gate for parallel Tessera work.
 ---
 
-**Rule:** Tessera is one project maintained by five agents. Consolidation toward public vitalitychems-dot/TX should remove redundant copies, but no merge proceeds until every participating agent explicitly agrees.
+**Rule:** Five agents work on the same Tessera project. TX is the public staging/consolidation destination; vitalitychems-dot/Grok-ready is the newer final repository. Include all repositories and Replit branch contributions, removing only verified redundancy. All participating agents must review and confirm completeness before source repositories may be deleted.
 
-**Why:** Parallel agent work can contain distinct or conflicting changes, and the user set unanimous agreement as a prerequisite.
+**Why:** The owner repeatedly requested preservation of all distinct work, a single shared final repository, and collective review before old-repository cleanup. Concurrent agents can disagree on which originals or data are redundant.
 
-**How to apply:** Gather each agent's current commit and uncommitted work, disclose public-visibility consequences, and wait for explicit agreement before writing to TX. Use branches and pull requests after consensus.
+**How to apply:** Read the live shared GitHub review instructions, compare each agent’s source and target commits, account for local/unpushed work, resolve omissions rather than assuming summaries preserve originals, and retain source repositories until explicit sign-offs. Confirm the exact deletion list with the owner before destructive cleanup. Never publish credentials or unapproved private contents.
