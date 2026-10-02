@@ -1,0 +1,1 @@
+- [GitHub repo tree snapshots](github-repo-tree-snapshots.md) — serial recursive-tree reads avoid secondary 429s from parallel bursts.
