@@ -1,2 +1,2 @@
-- [GitHub repo tree snapshots](github-repo-tree-snapshots.md) — serial recursive-tree reads avoid secondary 429s from parallel bursts.
+- [GitHub repo tree snapshots](github-repo-tree-snapshots.md) — serialize tree reads and filter returned paths/fields before logging.
 - [Tessera multi-agent consolidation](tessera-multi-agent-consolidation.md) — TX stages shared work; Grok-ready is final; all agents must sign off before source cleanup.
