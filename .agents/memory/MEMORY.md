@@ -1,1 +1,2 @@
 - [GitHub repo tree snapshots](github-repo-tree-snapshots.md) — serial recursive-tree reads avoid secondary 429s from parallel bursts.
+- [Tessera multi-agent consolidation](tessera-multi-agent-consolidation.md) — keep TX as the shared public target and wait for all agents to agree before merging.
